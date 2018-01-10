@@ -1,4 +1,5 @@
 
+execute pathogen#infect()
 
 
 " F4 - NERDTree
