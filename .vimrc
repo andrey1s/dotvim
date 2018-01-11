@@ -2,6 +2,10 @@
 execute pathogen#infect()
 
 
+set backup
+set backupdir=~/.vim/backup/
+set dir=~/.vim/tmp
+
 " F4 - NERDTree
 nmap <F4> :NERDTreeToggle<CR>
 vmap <F4> <esc>:NERDTreeToggle<CR>

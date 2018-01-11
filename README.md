@@ -8,9 +8,14 @@ git clone --recursive https://github.com/andrey1s/dotvim.git .vim
 ln -s .vim/.vimrc
 ```
 
-#Bundles
+##Bundles
 
 - [NERDTree][1]
+
+
+##Hotkeys
+
+`<F4>` - NERDTree
 
 
 ## More dotvim
