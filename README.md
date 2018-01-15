@@ -11,11 +11,15 @@ ln -s .vim/.vimrc
 ##Bundles
 
 - [NERDTree][1]
-
+- [bufexplorer][2]
 
 ##Hotkeys
 
 `<F4>` - NERDTree
+`<F5>` - Buffer list
+`<F6>` - Prew buffer
+`<F7>` - Next buffer
+`<F12>` - View file list
 
 
 ## More dotvim
@@ -24,3 +28,4 @@ ln -s .vim/.vimrc
 
 
 [1]: https://github.com/scrooloose/nerdtree "NERDTree"
+[2]: https://github.com/vim-scripts/bufexplorer.zip "bufexplorer"
