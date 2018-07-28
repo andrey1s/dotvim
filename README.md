@@ -16,11 +16,11 @@ ln -s .vim/.vimrc
 
 ##Hotkeys
 
-`<F4>` - NERDTree 
-`<F5>` - Buffer list 
-`<F6>` - Prew buffer 
-`<F7>` - Next buffer 
-`<F12>` - View file list 
+`<F4>` - NERDTree  
+`<F5>` - Buffer list   
+`<F6>` - Prew buffer   
+`<F7>` - Next buffer   
+`<F12>` - View file list   
 
 ## More dotvim
  - https://github.com/qbbr/dotvim
