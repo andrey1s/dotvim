@@ -13,7 +13,7 @@ set nu
 set tabstop=4
 set softtabstop=4
 set t_Co=256
-"colorscheme solarized8_dark_flat
+ colorscheme wombat256mod
 
 filetype on
 filetype plugin on
