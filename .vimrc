@@ -1,10 +1,23 @@
 
 execute pathogen#infect()
 
-
+syntax on
 set backup
 set backupdir=~/.vim/backup/
 set dir=~/.vim/tmp
+
+set enc=utf-8
+set fenc=utf-8
+set termencoding=utf-8
+set nu
+set tabstop=4
+set softtabstop=4
+set t_Co=256
+"colorscheme solarized8_dark_flat
+
+filetype on
+filetype plugin on
+
 
 " F4 - NERDTree
 nmap <F4> :NERDTreeToggle<CR>
@@ -17,6 +30,7 @@ let NERDTreeShowHidden=1
 hi Normal ctermbg=233
 hi Directory cterm=bold ctermfg=blue
 nmap <Cmd-1> :NERDTreeToggle<CR>
+nmap \e :NERDTreeToggle<CR>
 
 " NERDTress File highlighting
 function! NERDTreeHighlightFile(extension, fg, bg)
@@ -48,6 +62,7 @@ call NERDTreeHighlightFile('gitignore', '240', 'none')
 call NERDTreeHighlightFile('gitkeep', '240', 'none')
 call NERDTreeHighlightFile('htaccess', '240', 'none')
 call NERDTreeHighlightFile('lock', '245', 'none')
+
 "let NERDTreeKeepTreeInNewTab=1
 
 " F5 - show buffer list
@@ -79,4 +94,5 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
 
