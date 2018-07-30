@@ -24,6 +24,8 @@ ln -s .vim/.vimrc
 
 ## More dotvim
  - https://github.com/qbbr/dotvim
+ - https://github.com/kasyaar/vim_config
+ - https://github.com/statico/dotfiles
  
 ## More Link
 - https://vim-adventures.com
