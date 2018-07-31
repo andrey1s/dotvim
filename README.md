@@ -13,6 +13,7 @@ ln -s .vim/.vimrc
 - [NERDTree][1]
 - [bufexplorer][2]
 - [syntastic][3]
+- [vim-go][4]
 
 ##Hotkeys
 
@@ -35,4 +36,5 @@ ln -s .vim/.vimrc
 [1]: https://github.com/scrooloose/nerdtree "NERDTree"
 [2]: https://github.com/vim-scripts/bufexplorer.zip "bufexplorer"
 [3]: https://github.com/vim-syntastic/syntastic "Syntax checking hacks"
+[4]: https://github.com/fatih/vim-go "Go development plugin for Vim"
 
