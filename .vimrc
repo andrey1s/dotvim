@@ -10,14 +10,24 @@ set enc=utf-8
 set fenc=utf-8
 set termencoding=utf-8
 set nu
+
 set tabstop=4
 set softtabstop=4
+set shiftwidth=4
+set smartindent
+set smarttab
+set expandtab
+
 set t_Co=256
 "colorscheme wombat256mod
 colorscheme foursee
 
 filetype on
 filetype plugin on
+
+map <C-n> :cnext<CR>
+map <C-m> :cprevious<CR>
+nnoremap <leader>a :cclose<CR>
 
 "------------------------------------------------------------------------------
 " F4 - NERDTree
