@@ -10,6 +10,7 @@ set enc=utf-8
 set fenc=utf-8
 set termencoding=utf-8
 set nu
+set backspace=indent,eol,start "http://vimhelp.appspot.com/options.txt.html#%27backspace%27
 
 set tabstop=4
 set softtabstop=4
