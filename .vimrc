@@ -20,8 +20,9 @@ set smarttab
 set expandtab
 
 set t_Co=256
-"colorscheme wombat256mod
-colorscheme foursee
+colorscheme wombat256mod
+"colorscheme foursee
+let mapleader = ","
 
 filetype on
 filetype plugin on
@@ -115,7 +116,8 @@ let g:syntastic_check_on_wq = 0
 " Vim-go
 "------------------------------------------------------------------------------
 let g:go_fmt_fail_silently = 1
-let g:go_fmt_command = "gofmt" "Explicited the formater plugin (gofmt, goimports, goreturn...)
+let g:go_fmt_command = "goimports" "Explicited the formater plugin (gofmt, goimports, goreturn...)
+let g:go_auto_type_info = 1
 
 " Show a list of interfaces which is implemented by the type under your cursor
 au FileType go nmap <Leader>s <Plug>(go-implements)
