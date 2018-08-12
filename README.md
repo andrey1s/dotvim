@@ -14,6 +14,7 @@ ln -s .vim/.vimrc
 - [bufexplorer][2]
 - [syntastic][3]
 - [vim-go][4]
+- [supertab][5]
 
 ##Hotkeys
 
@@ -37,4 +38,5 @@ ln -s .vim/.vimrc
 [2]: https://github.com/vim-scripts/bufexplorer.zip "bufexplorer"
 [3]: https://github.com/vim-syntastic/syntastic "Syntax checking hacks"
 [4]: https://github.com/fatih/vim-go "Go development plugin for Vim"
+[5]: https://github.com/ervandew/supertab "Perform all your vim insert mode completions with Tab"
 
