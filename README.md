@@ -15,6 +15,7 @@ ln -s .vim/.vimrc
 - [syntastic][3]
 - [vim-go][4]
 - [supertab][5]
+- [fugitive][6]
 
 ##Hotkeys
 
@@ -39,4 +40,5 @@ ln -s .vim/.vimrc
 [3]: https://github.com/vim-syntastic/syntastic "Syntax checking hacks"
 [4]: https://github.com/fatih/vim-go "Go development plugin for Vim"
 [5]: https://github.com/ervandew/supertab "Perform all your vim insert mode completions with Tab"
+[6]: https://github.com/tpope/vim-fugitive "A Git wrapper so awesome"
 
