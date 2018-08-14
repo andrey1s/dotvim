@@ -18,6 +18,7 @@ ln -s .vim/.vimrc
 - [fugitive][6]
 - [gitgutter][7]
 - [auto-pairs][8]
+- [lightline][9]
 
 ##Hotkeys
 
@@ -45,4 +46,5 @@ ln -s .vim/.vimrc
 [6]: https://github.com/tpope/vim-fugitive "A Git wrapper so awesome"
 [7]: https://github.com/airblade/vim-gitgutter "shows a git diff in the gutter"
 [8]: https://github.com/jiangmiao/auto-pairs "insert or delete brackets, parens, quotes in pair"
+[9]: https://github.com/itchyny/lightline.vim "A light and configurable statusline/tabline"
 
