@@ -1,4 +1,4 @@
-#dotvim
+# dotvim
 
 ## Installation
 
@@ -8,7 +8,7 @@ git clone --recursive https://github.com/andrey1s/dotvim.git .vim
 ln -s .vim/.vimrc
 ```
 
-##Bundles
+## Bundles
 
 - [NERDTree][1]
 - [bufexplorer][2]
@@ -20,7 +20,7 @@ ln -s .vim/.vimrc
 - [auto-pairs][8]
 - [lightline][9]
 
-##Hotkeys
+## Hotkeys
 
 `<F4>` - NERDTree  
 `<F5>` - Buffer list   
@@ -36,7 +36,9 @@ ln -s .vim/.vimrc
  
 ## More Link
 - https://vim-adventures.com
-
+- http://vimcolors.com
+- https://vimawesome.com
+- http://vimcasts.org
 
 [1]: https://github.com/scrooloose/nerdtree "NERDTree"
 [2]: https://github.com/vim-scripts/bufexplorer.zip "bufexplorer"
