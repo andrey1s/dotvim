@@ -18,6 +18,8 @@ set shiftwidth=4
 set smartindent
 set smarttab
 set expandtab
+set laststatus=2
+set noshowmode
 
 set t_Co=256
 colorscheme wombat256mod
@@ -39,6 +41,9 @@ vmap <F4> <esc>:NERDTreeToggle<CR>
 imap <F4> <esc>:NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '~'
 let g:NERDTreeDirArrowCollapsible = '+'
+let g:NERDTreeMinimalUI = 1
+let g:NERDTreeAutoDeleteBuffer = 1
+let g:NERDTreeStatusLine = -1
 let NERDTreeIgnore=['\.pyc', '\.swp', '\.git$', '\.hg', '\.svn', '\.bzr']
 let NERDTreeShowHidden=1
 hi Normal ctermbg=233
