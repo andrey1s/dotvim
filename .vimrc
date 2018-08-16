@@ -18,8 +18,6 @@ set shiftwidth=4
 set smartindent
 set smarttab
 set expandtab
-set laststatus=2
-set noshowmode
 
 set t_Co=256
 colorscheme wombat256mod
