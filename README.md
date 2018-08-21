@@ -19,10 +19,10 @@ ln -s .vim/.vimrc
 - [gitgutter][7]
 - [auto-pairs][8]
 - [vim-airline][9]
-
+- [ultisnips][10]
 ## Hotkeys
 
-`<F4>` - NERDTree  
+`\e` - NERDTree  
 `<F5>` - Buffer list   
 `<F6>` - Prew buffer   
 `<F7>` - Next buffer   
@@ -49,4 +49,4 @@ ln -s .vim/.vimrc
 [7]: https://github.com/airblade/vim-gitgutter "shows a git diff in the gutter"
 [8]: https://github.com/jiangmiao/auto-pairs "insert or delete brackets, parens, quotes in pair"
 [9]: https://github.com/vim-airline/vim-airline "lean & mean status/tabline for vim that's light as air"
-
+[10]: https://github.com/sirver/ultisnips "The ultimate snippet solution"

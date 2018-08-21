@@ -34,9 +34,6 @@ nnoremap <leader>a :cclose<CR>
 "------------------------------------------------------------------------------
 " F4 - NERDTree
 "------------------------------------------------------------------------------
-nmap <F4> :NERDTreeToggle<CR>
-vmap <F4> <esc>:NERDTreeToggle<CR>
-imap <F4> <esc>:NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '~'
 let g:NERDTreeDirArrowCollapsible = '+'
 let g:NERDTreeMinimalUI = 1
@@ -46,7 +43,6 @@ let NERDTreeIgnore=['\.pyc', '\.swp', '\.git$', '\.hg', '\.svn', '\.bzr']
 let NERDTreeShowHidden=1
 hi Normal ctermbg=233
 hi Directory cterm=bold ctermfg=blue
-nmap <Cmd-1> :NERDTreeToggle<CR>
 nmap \e :NERDTreeToggle<CR>
 
 " NERDTress File highlighting
