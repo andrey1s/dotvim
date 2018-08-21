@@ -20,6 +20,7 @@ ln -s .vim/.vimrc
 - [auto-pairs][8]
 - [vim-airline][9]
 - [ultisnips][10]
+
 ## Hotkeys
 
 `\e` - NERDTree  
@@ -28,18 +29,19 @@ ln -s .vim/.vimrc
 `<F7>` - Next buffer   
 `<F12>` - View file list   
 
-## More dotvim
- - https://github.com/qbbr/dotvim
- - https://github.com/kasyaar/vim_config
- - https://github.com/statico/dotfiles
- - https://github.com/farazdagi/vim-go-ide
- 
 ## More Link
 - https://vim-adventures.com
 - http://vimcolors.com
 - https://vimawesome.com
 - http://vimcasts.org
 
+## More dotvim
+ - https://github.com/qbbr/dotvim
+ - https://github.com/kasyaar/vim_config
+ - https://github.com/statico/dotfiles
+ - https://github.com/farazdagi/vim-go-ide
+ - https://github.com/ik5/dotvim
+ 
 [1]: https://github.com/scrooloose/nerdtree "NERDTree"
 [2]: https://github.com/vim-scripts/bufexplorer.zip "bufexplorer"
 [3]: https://github.com/vim-syntastic/syntastic "Syntax checking hacks"
