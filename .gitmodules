@@ -24,7 +24,7 @@
 	url = https://github.com/jiangmiao/auto-pairs.git
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
-	url = https://github.com/vim-airline/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
 [submodule "bundle/ultisnips"]
 	path = bundle/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
