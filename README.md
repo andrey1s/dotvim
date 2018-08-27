@@ -20,6 +20,7 @@ ln -s .vim/.vimrc
 - [auto-pairs][8]
 - [vim-airline][9]
 - [ultisnips][10]
+- [CtrlP][11]
 
 ## Hotkeys
 
@@ -52,3 +53,5 @@ ln -s .vim/.vimrc
 [8]: https://github.com/jiangmiao/auto-pairs "insert or delete brackets, parens, quotes in pair"
 [9]: https://github.com/vim-airline/vim-airline "lean & mean status/tabline for vim that's light as air"
 [10]: https://github.com/sirver/ultisnips "The ultimate snippet solution"
+[11]: https://github.com/ctrlpvim/ctrlp.vim "Full path fuzzy file, buffer, mru, tag, ... finder for Vim."
+
