@@ -25,10 +25,8 @@ ln -s .vim/.vimrc
 ## Hotkeys
 
 `\e` - NERDTree  
-`<F5>` - Buffer list   
-`<F6>` - Prew buffer   
-`<F7>` - Next buffer   
-`<F12>` - View file list   
+`\b` - Buffer list   
+`<Shift-Tab>` - Next buffer   
 
 ## More Link
 - https://vim-adventures.com

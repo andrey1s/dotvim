@@ -78,25 +78,13 @@ call NERDTreeHighlightFile('lock', '245', 'none')
 
 "let NERDTreeKeepTreeInNewTab=1
 
-" F5 - show buffer list
-nmap <F5> <Esc>:BufExplorer<cr>
-vmap <F5> <esc>:BufExplorer<cr>
-imap <F5> <esc><esc>:BufExplorer<cr>
+" show buffer list
+nmap \b <Esc>:BufExplorer<cr>
 
-" F6 - prew buffer
-nmap <F6> :bp<cr>
-vmap <F6> <esc>:bp<cr>i
-imap <F6> <esc>:bp<cr>i
-
-" F7 - next buffer
-nmap <F7> :bn<cr>
-vmap <F7> <esc>:bn<cr>i
-imap <F7> <esc>:bn<cr>i
-
-" F12 - view files
-nmap <F12> :Ex<cr>
-vmap <F12> <esc>:Ex<cr>i
-imap <F12> <esc>:Ex<cr>i
+" Shift-Tab - next buffer
+nmap <S-Tab> :bn<cr>
+imap <S-Tab> <esc>:bn<cr>i
+vmap <S-Tab> <esc>:bn<cr>i
 
 "------------------------------------------------------------------------------
 " syntastic
