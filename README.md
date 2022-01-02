@@ -1,7 +1,5 @@
 # dotvim
 
-deprecated move to https://gitoa.ru/andrey1s/dotvim
-
 ## Installation
 
 ```bash
